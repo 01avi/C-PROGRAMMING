@@ -21,10 +21,10 @@ main()
 		printf("this is WEDNESDAY on the day 4");
 	}
 	else if(p==5)
-    {
+        {
     	printf("this is THURSDAY on the day 5");
 	}
-	else if(p==6)\
+	else if(p==6)
 	{
 		printf("this is FRIDAY on the day 6");
 	}
