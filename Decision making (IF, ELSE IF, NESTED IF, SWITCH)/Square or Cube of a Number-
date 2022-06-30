@@ -12,23 +12,22 @@ main()
      float a,sq;
      printf("ENTER ANY NUMBER YOU WANT TO SQUARE:-");
      scanf("%f",&a);
-     
      sq=a*a;
      printf("SQUARE OF THE NUMBER IS:- %f",sq);
     }
-    else if(i==2)
-    {
+    
+   else if(i==2)
+   {
      float b,q;
      printf("ENTER ANY NUMBER YOU WANT TO CUBE:- ");
      scanf("%f",&b);
-     
      q=b*b*b;
-     
      printf("CUBE OF THE NUMBER IS:- %f",q);
-    }
-    else
-    {
+   }
+    
+   else
+   {
     printf("INVALID INPUT!!");
     printf("ENTER VALID CHOICE");
-    }
+   }
 }
