@@ -5,11 +5,11 @@ main()
 	printf("PRINT ALL EVEN NUMBERS From:-");
 	scanf("%d", &n);
 	printf("EVEN NUMBERS FROM %d TO 1:--\n", n);
-	for(i=n; i<=1; i--)
+	for(i=n; i>=1; i--)
 	{
-		if(i%2!=1)
-		{
-			printf("%d\n",i);
-		}
+         if(i%2!=1)
+	   {
+	     printf("%d\n",i);
+           }
 	}
 }
