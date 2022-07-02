@@ -2,9 +2,9 @@
 main()
 {
 	int i,n;
-	printf("PRINT ALL EVEN NUMBERS From:-");
+	printf("PRINT ALL EVEN NUMBERS From:- ");
 	scanf("%d", &n);
-	printf("EVEN NUMBERS FROM %d TO 1:--\n", n);
+	printf("EVEN NUMBERS FROM %d TO 1:- \n", n);
 	for(i=n; i>=1; i--)
 	{
          if(i%2!=1)
