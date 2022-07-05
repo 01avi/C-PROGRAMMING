@@ -19,7 +19,8 @@ main ()
         break;  
         default:   
         printf("please enter valid choice");      
-    }  
+    } 
+    printf("\n");
     printf("do you want to enter more?");   
     scanf("%d",&dummy);  
     scanf("%c",&c);  
