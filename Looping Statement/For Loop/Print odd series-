@@ -1,0 +1,13 @@
+#include<stdio.h>  
+ main ()  
+{  
+    int j = 1;  
+    int n;
+    printf("Enter The NO. For Series:- ");
+    scanf("%d",&n);
+    while(j+=2,j<=n)  
+    {  
+        printf("%d ",j);   
+    }  
+    printf("%d",j);  
+} 
