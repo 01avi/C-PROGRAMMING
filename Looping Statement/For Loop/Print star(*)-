@@ -1,0 +1,20 @@
+#include <stdio.h>  
+int main()  
+{  
+  int i;
+  printf("Enter The Number Ist :- ");  
+  scanf("%d",&i);
+  do          
+   {  
+    int j;
+	printf("Enter The Number of IInd:- ") ; 
+    scanf("%d",&j);
+    do      
+     {  
+       printf("*");  
+       j++;  
+     }while(j<=8);  
+      printf("\n");  
+       i++;  
+    }while(i<=4);  
+}  
