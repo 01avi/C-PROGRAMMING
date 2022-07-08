@@ -2,7 +2,7 @@
 main()
 {
 	char ch;
-	printf("enter any character");
+	printf("Enter any character:- ");
 	scanf("%c",&ch);
 	if((ch=='a')||(ch=='e')||(ch=='A')||(ch=='i')||(ch=='o')||(ch=='u')||(ch=='E')||(ch=='I')||(ch=='O')||(ch=='U'))
 	{
