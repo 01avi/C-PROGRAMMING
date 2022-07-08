@@ -2,21 +2,30 @@
 main()
 {
 	float Z,B,C,SI;
-  int A;
+        int A;
 	printf("Enter the Principle Amount :- ");
 	scanf("%d", &A);
 	printf("Enter the Rate of interest :- ");
 	scanf("%f", &B);
 	printf("Enter Time period (IN YEARS) :- ");
 	scanf("%f", &C);
-  
+	
+        if(A<='0' || B<='0' || C<='0')
+       {
+  	printf("\n");
+  	printf("***********************\n");
+        printf("\nInput valid Information\n");
+        printf("\n***********************");
+        printf("\n");
+       }
+       
 	SI= (A*B*C)/100;
-  Z= SI+A;
+        Z= SI+A;
   
-  printf("\n");
+        printf("\n");
 	printf("Simple Interest of Ammount %d", A );
-  printf(" Rupees for %f", C);
-  printf(" Years is:- %f\n", SI);
-  printf("Total Ammount with intrest is:- %f", Z);
+        printf(" Rupees for %f", C);
+        printf(" Years is:- %f\n", SI);
+        printf("Total Ammount with intrest is:- %f", Z);
 	
 }
