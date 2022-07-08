@@ -10,10 +10,10 @@ main()
 	 	 if(R<=0)
 	 	 {
 	 	 	printf("CIRCLE IS NOT VALID\n");
-	    	printf("RADIOUS COULD BE GREATER THAN ZERO\n");
+	    	        printf("RADIOUS COULD BE GREATER THAN ZERO\n");
 		 }
 	
-	     A= p*R*R;
-         printf("AREA OF THE CIRCLE IS:- %f", A);
+	            A= p*R*R;
+                    printf("AREA OF THE CIRCLE IS:- %f", A);
 }
 	
