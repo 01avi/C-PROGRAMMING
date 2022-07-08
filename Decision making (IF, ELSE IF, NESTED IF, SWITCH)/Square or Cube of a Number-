@@ -13,7 +13,7 @@ main()
      printf("ENTER ANY NUMBER YOU WANT TO SQUARE:-");
      scanf("%f",&a);
      sq=a*a;
-     printf("SQUARE OF THE NUMBER IS:- %f",sq);
+     printf("SQUARE OF THE NUMBER IS :- %f",sq);
     }
     
    else if(i==2)
