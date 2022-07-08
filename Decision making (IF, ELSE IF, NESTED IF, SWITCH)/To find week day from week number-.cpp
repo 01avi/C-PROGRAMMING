@@ -2,35 +2,35 @@
 main()
 {
 	int p;
-	printf("Enter Week Number-");
+	printf("Enter Week Number:- ");
 	scanf("%d", &p);
 	if(p==1)
 	{
-		printf("this is SUNDAY of that day");
+		printf("This is SUNDAY of that day");
 	}
 	else if(p==2)
 	{
-		printf("this is MONDAY on the day 2");
+		printf("This is MONDAY on the day 2");
 	}
 	else if(p==3)
 	{
-		printf("this is TUESDAY on the day 3");
+		printf("This is TUESDAY on the day 3");
 	}
 	else if(p==4)
 	{
-		printf("this is WEDNESDAY on the day 4");
+		printf("This is WEDNESDAY on the day 4");
 	}
 	else if(p==5)
         {
-    	printf("this is THURSDAY on the day 5");
+    	printf("This is THURSDAY on the day 5");
 	}
 	else if(p==6)
 	{
-		printf("this is FRIDAY on the day 6");
+		printf("This is FRIDAY on the day 6");
 	}
 	else if(p==7)
 	{
-		printf("this is SATURDAY on the day 7");
+		printf("This is SATURDAY on the day 7");
 	}
 	else
 	{
