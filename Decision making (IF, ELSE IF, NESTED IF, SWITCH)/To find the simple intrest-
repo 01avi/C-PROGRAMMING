@@ -3,11 +3,11 @@ main()
 {
 	float Z,B,C,SI;
   int A;
-	printf("Enter the Principle Amount:- ");
+	printf("Enter the Principle Amount :- ");
 	scanf("%d", &A);
-	printf("Enter the Rate of interest:- ");
+	printf("Enter the Rate of interest :- ");
 	scanf("%f", &B);
-	printf("Enter Time period (IN YEARS):- ");
+	printf("Enter Time period (IN YEARS) :- ");
 	scanf("%f", &C);
   
 	SI= (A*B*C)/100;
