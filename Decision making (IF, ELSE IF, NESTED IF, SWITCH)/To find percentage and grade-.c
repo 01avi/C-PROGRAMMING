@@ -3,7 +3,7 @@ main()
 {
 	int phy,che,math,hindi,english;
 	float per;
-	printf("enter 5 sub marks:=");
+	printf("Enter 5 sub marks:-");
 	scanf("%d%d%d%d%d", &phy, &che, &math, &hindi, &english);
 	
 	per=(phy+che+math+hindi+english)/5;
