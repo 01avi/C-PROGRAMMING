@@ -1,0 +1,20 @@
+#include<stdio.h>
+main()
+{
+	int ch;
+	printf("ENTER A NUMBER:--");
+	scanf("%d",&ch);
+	switch(ch%2)
+	{
+		case 1:
+			printf("NUMBER IS ODD");
+			break;
+			case 0:
+			printf("NUMBER IS EVEN");
+			break;
+					
+					default:
+						printf("WRONG INPUT!!");
+					break;
+	}
+}
