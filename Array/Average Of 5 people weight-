@@ -1,0 +1,19 @@
+#include<stdio.h>
+main()
+{
+	float weight[5];
+	int i;
+	float sum=0;
+	float average;
+	for(i=0;i<5;i++)
+	{
+		printf("ENTER FIVE PEOPLE's WEIGHT:-");
+		scanf("%f",&weight[i]);
+	}
+	for(i=0;i<5;i++)
+	{
+		sum=sum+weight[i];
+	    average=sum/5;
+	}
+	printf("AVERAGE OF 5 PEOPLE's WEIGHT IS= %f",average);
+}
