@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{
+	int a=10;
+	int *b;
+	int *c;
+	b=&a;
+	c=b;
+	printf("\nvalue of a=%d",a);
+	printf("\naddress of a=%u",&a);
+	printf("\nvalue of b=%d",a);
+	printf("\naddress of b=%u",&(*b));
+	printf("\nvalue of c=%d",*c);
+	printf("\naddress of c=%u",b);
+}
