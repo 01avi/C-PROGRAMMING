@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main ()
+{
+int n=100;
+int *ptr; 
+printf("Address of num variable: %x\n", &n);
+printf("Address stored in ptr variable: %x\n", ptr ); 
+printf("Value of *ptr variable: %d\n", *ptr ); 
+}
