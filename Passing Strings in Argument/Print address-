@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+    char Address[20];
+    printf("Enter Your Address:- ");
+    scanf("%s", name);
+    printf("Your Address is %s.", name);
+}
