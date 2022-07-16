@@ -1,7 +1,7 @@
 #include<stdio.h>
 main()
 {
-	float weight[5];
+	float weight [5];
 	int i;
 	float sum=0;
 	float average;
